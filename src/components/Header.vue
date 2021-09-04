@@ -2,7 +2,7 @@
     <div class="navbar">
         <div class="container">
             <header class="header">
-                <a href="/"><img src="#" alt="Logo"></a>
+                <router-link to="/"><img src="#" alt="Logo"></router-link>
                 <nav class="links">
                     <ul class="nav-links">
                         <li class="nav-item">
