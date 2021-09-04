@@ -6,10 +6,10 @@
                 <nav class="links">
                     <ul class="nav-links">
                         <li class="nav-item">
-                            <a class="nav-link" href="/">Главная страница</a>
+                            <router-link to="/">Главная страница</router-link>
                         </li>
                             <li class="nav-item">
-                            <a class="nav-link"  href="/login">Войти</a>
+                            <router-link to="/login">Войти</router-link>
                         </li>
                     </ul>
                 </nav>
@@ -48,7 +48,7 @@ export default {
         text-decoration: none;
         color: white;
     }
-    .nav-link:hover{
+    /* .nav-link:hover{
         color: grey;
-    }
+    } */
 </style>

@@ -1,15 +1,15 @@
 <template>
   <div id="app">
     <Header/>
-    <Button text="test"/>
+    <router-view/>
   </div>
 </template>
 
 <script>
-import Header from '@/components/Header.vue';
+import Header from './components/Header.vue';
 
 export default {
-  name: 'App',
+  name: 'app',
   components: {
     Header
   }
@@ -21,7 +21,7 @@ body{
   margin: 0;
   padding: 0;
 }
-.container {
+.container{
   width: 980px;
   margin: 0 auto;
 }
