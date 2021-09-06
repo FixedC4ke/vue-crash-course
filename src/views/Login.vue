@@ -23,7 +23,7 @@ export default {
             let data = new FormData(e.target);
             let username = data.get('username');
             let password = data.get('password');
-            if (username!==this.testdata.username && password!==this.testdata.password){
+            if (username!==this.testdata.username || password!==this.testdata.password){
                 this.errorMessage = "Неверный логин/пароль";
             }
             else {
